@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+html{
+    font-size: 70%;
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #0e0b16;
+}
+.inner-div{
+    width: 40vw;
+    background-color: #4717f6;
+    color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem #e7dfdd;
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 1rem 3rem;
+    color: white;
+    outline: none;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border-radius: 6%;
+    border: none;
+    background-color: #fc03c2;
+    margin-top: 4rem;
+}
+#submit:hover{
+    background-color: #7d1364;
+    cursor: pointer;
+}
+#showScore{
+    background-color: #fc03c2;
+    margin: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem #e7dfdd;
+    border-radius: 4%;
+}
+.scoreArea{
+    display:none;
+}
+
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #1440b8;
+    color: beige;
+}
+
+#showScore .btn:hover{
+    
+    background-color: #011c66;
+    color: beige;
+}
